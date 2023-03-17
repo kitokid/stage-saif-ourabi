@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="credit" id="f" name="f" onsubmit="return false;">
+        <label for="t1">Prénom <br> الاسم <span class="etoile">*</span></label><br>
+        <input type="text" name="name" id="name" class="txt-list" />
+        <br>
+
+
+
+        <label for="t2">Nom<br>اللقب<span class="etoile">*</span></label><br>
+        <input type="text" name="prenom" id="prenom" class="txt-list" /><br>
+
+
+
+
+        <label for="genre">Genre<br>الجنس<span class="etoile"></label><span class="etoile"> *</span><br>
+        
+        <input type="radio" name="genre" id="h" value="H"> Homme رجل <br>
+        <input type="radio" name="genre" id="f" value="F"> Femme امرأة <br>
+        <div class="gere-erreor"></div>
+
+
+
+        <label for="cin">Numéro CIN<br>رقم بطاقة التعريف الوطنية<span class="etoile">*</span></label><br>
+        <input type="number" name="cin" id="cin" class="txt-list" />
+        <br>
+
+
+        <label for="date">Date de naissance<br>تاريخ الميلاد<span class="etoile">*</span></label><br>
+        <input type="date" name="date" id="date" class="txt-list" />
+        <br>
+
+        <label for="job">Actuellement, vous êtes<br> حاليا، أنت <span class="etoile">*</span></label><br>
+        <select class="select" id="job" name="job">
+            <option selected>Actuellement,vous êtes حاليا، أنت </option>
+            <option>Exploitant agricole فلاح</option>
+            <option>Artisan, commerçant, independant حرفي، تاجر، مستقل</option>
+            <option>Chef/Propriétaire d'entreprise صاحب مؤسسة</option>
+            <option>Profession libérale مهنة حرة</option>
+            <option>Ouvrier agricole عامل فلاحي</option>
+            <option>Ouvrier non agricole عامل</option>
+            <option>Employé, cadre موظف أو مسؤول</option>
+            <option>Chomeur عاطل عن العمل</option>
+            <option>Retraité متقاعد</option>
+            <option>Etudiant طالب</option>
+        </select><br>
+
+        <span id="avis">Comment avez-vous entendu parler de Enda ? <br>
+            كيف تعرفت على مؤسسة أندا ؟</span><br><br>
+
+        <input type="checkbox" id="c1">
+        <label for="c1">Personnel Enda موظفين أندا</label><br>
+
+        <input type="checkbox" id="c2">
+        <label for="c2">Client Enda حريف أندا</label><br>
+
+        <input type="checkbox" id="c3">
+        <label for="c3">Prospectus de communication منشور إعلاني</label><br>
+
+        <input type="checkbox" id="c4">
+        <label for="c4">Foire معرض</label><br>
+
+        <input type="checkbox" id="c5">
+        <label for="c5">Institution partenaire مؤسسة شريكة</label><br>
+
+        <input type="checkbox" id="c6">
+        <label for="c6">Média (TV, radio, presse, affichage) وسائل الإعلام</label><br>
+
+        <input type="checkbox" id="c7">
+        <label for="c7">Internet الإنترنت</label><br>
+
+        <input type="checkbox" id="c8">
+        <label for="c8">Autres وسائل أخرى</label><br>
+
+        <button id="b1" type="submit">Etape Suivante <br> المرحلة التالية</button>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+    <script src="index.js"></script>
+
+
+
+</body>
+
+</html>

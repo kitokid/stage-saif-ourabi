@@ -1,0 +1,57 @@
+body
+{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+
+.txt-list,.select
+{
+background-color:#cacaca;
+border:none;
+width: 1000px;
+height: 49px;
+display: block;
+}
+
+.etoile
+{
+color: red;
+}
+
+.select option:hover
+{
+background-color: white !important;
+width: 590.4px;
+height: 49px;
+}
+
+
+
+button
+{
+background-color: #e2126e;
+border: none;
+border-radius:5px ;
+color: #fff;
+position:relative;
+left:23.9cm;
+}
+
+
+div
+{
+display:block;
+color: rgb(255,0,0) !important;
+height: 25px;
+font-weight: bold;
+font-size: 16px;
+}
+
+label.error {
+    color: red;
+    font-size: 16px;
+  }
+  

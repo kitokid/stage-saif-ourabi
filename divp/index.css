@@ -1,0 +1,36 @@
+.main
+{
+display: flex;
+}
+
+#d1,#d2,#d3,#d4
+{
+border:black 1px solid;
+width: 500px;
+height: 250px;
+margin: 10px;
+}
+
+
+.crco1
+{
+background-color: red;
+}
+
+
+
+.crco2
+{
+background-color:wheat;
+}
+
+
+.changcol1
+{
+background-color: blue;
+}
+
+.changcol2
+{
+background-color: aquamarine;
+}
